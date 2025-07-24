@@ -1,13 +1,10 @@
-package com.coderscampus.unitTest.assignment7;
+package com.coderscampus.assignment7;
+import org.junit.jupiter.api.Test;
 
-import com.coderscampus.assignment7.CustomArrayList;
-import com.coderscampus.assignment7.CustomList;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
-
-public class UnitTest {
+public class CustomArrayListTest {
     @Test
     public void shouldAddItemAtSpecificIndex() {
         CustomList<String> list = new CustomArrayList<>();
